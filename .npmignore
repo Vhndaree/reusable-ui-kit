@@ -1,4 +1,9 @@
 .babelrc
+.editconfig
+.eslintrc
+.gitignore
+.prettierrc
 .github
+README.md
 src
 
