@@ -5,5 +5,5 @@ This is a simple ui-kit for button which we can use just by adding it in our `pa
 
 ### How to use:
 1. Simply initialize npm.
-2. run `npm install Vhndaree/reusable-ui-kit#master`
+2. run `npm install Vhndaree/reusable-ui-kit#master` or `yarn add Vhndaree/reusable-ui-kit` if you use yarn
 3. import package where ever you want to use in you project.
