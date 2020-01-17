@@ -4,6 +4,5 @@
 .gitignore
 .prettierrc
 .github
-README.md
 src
 
