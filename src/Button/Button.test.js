@@ -1,10 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Button } from './Button';
+import { PrimaryButton, SecondaryButton } from './Button';
 
-it('Button renders without crashing', () => {
+it('Primary button renders without crashing', () => {
   const div = document.createElement('div');
 
-  ReactDOM.render(<Button />, div);
+  ReactDOM.render(<PrimaryButton onClick={()=>{}}> Click </PrimaryButton>, div);
+  ReactDOM.unmountComponentAtNode(div);
+});
+
+it('Secondary button renders without crashing', () => {
+  const div = document.createElement('div');
+
+  ReactDOM.render(<SecondaryButton onClick={() => { }}>Click</SecondaryButton>, div);
   ReactDOM.unmountComponentAtNode(div);
 });
