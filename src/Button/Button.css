@@ -3,18 +3,24 @@
   outline: none;
   border-radius: 2px;
   text-align: center;
-  background: transparent; }
-  .Button[disabled] {
-    opacity: 0.2;
-    cursor: not-allowed; }
+  background: transparent;
+}
+.Button[disabled] {
+  opacity: 0.2;
+  cursor: not-allowed;
+}
 
 .PrimaryButton {
   color: #fff;
   background-color: #00ccae;
-  border: 1px solid #00ccae; }
-  .PrimaryButton:hover, .PrimaryButton:focus {
-    border-color: #00e0ba;
-    background-color: #00e0ba; }
-  .PrimaryButton[disabled] {
-    border-color: #00ccae;
-    background-color: #00ccae; }
+  border: 1px solid #00ccae;
+}
+.PrimaryButton:hover,
+.PrimaryButton:focus {
+  border-color: #00e0ba;
+  background-color: #00e0ba;
+}
+.PrimaryButton[disabled] {
+  border-color: #00ccae;
+  background-color: #00ccae;
+}
