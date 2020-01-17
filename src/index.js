@@ -1,3 +1,3 @@
 import { Button } from './components/Buttons';
 
-export const Button;
+export default Button;
