@@ -1,10 +1,4 @@
-yarn.lock
-src/
-node_modules/
 .babelrc
-.eslintrc
-.gitignore
-.prettierrc
-.editconfig
 .github
+src
 
