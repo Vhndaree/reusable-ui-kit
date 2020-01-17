@@ -1,0 +1,32 @@
+{
+  "name": "reusable-ui-kit",
+  "version": "1.0.0",
+  "description": "Reusable components ",
+  "main": "build/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d build --copy-files",
+    "test": "react-scripts test",
+    "prepare": "yarn run build",
+    "eslint": "eslint src",
+    "eslint:fix": "eslint --fix src",
+    "lint": "yarn prettier && yarn eslint",
+    "lint:fix": "yarn prettier:fix && yarn eslint:fix",
+    "prettier": "prettier 'src/**/*.{js,jsx,scss,css}'",
+    "prettier:fix": "prettier --write 'src/**/*.{js,jsx,scss,css}'"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^6.8.0",
+    "eslint-config-leapfrog": "^2.0.1",
+    "prettier": "^1.19.1"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "^3.3.0"
+  }
+}
