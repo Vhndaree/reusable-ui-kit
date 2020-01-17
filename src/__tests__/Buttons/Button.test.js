@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { PrimaryButton, SecondaryButton } from './Button';
+import { PrimaryButton, SecondaryButton } from '../../components/Buttons/Button/Button';
 
 it('Primary button renders without crashing', () => {
   const div = document.createElement('div');
