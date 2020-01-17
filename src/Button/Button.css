@@ -24,3 +24,18 @@
   border-color: #00ccae;
   background-color: #00ccae;
 }
+
+.SecondaryButton {
+  color: #fff;
+  background-color: #cc004e;
+  border: 1px solid #cc0000;
+}
+.SecondaryButton:hover,
+.SecondaryButton:focus {
+  border-color: #cc001b;
+  background-color: #e00000;
+}
+.SecondaryButton[disabled] {
+  border-color: #cc0044;
+  background-color: #cc002c;
+}
