@@ -14,5 +14,5 @@ export const SecondaryButton = ({ onClick, children }) => {
     <button type="button" className="Button SecondaryButton" onClick={onClick}>
       {children}
     </button>
-  )
-}
+  );
+};
