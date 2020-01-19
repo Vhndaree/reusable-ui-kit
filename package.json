@@ -31,6 +31,6 @@
     "react-scripts": "^3.3.0"
   },
   "pre-commit": {
-    "run": "yarn lint:fix"
+    "run": "lint:fix"
   }
 }
