@@ -4,5 +4,6 @@
 .gitignore
 .prettierrc
 .github
+node_modules
 src
 
