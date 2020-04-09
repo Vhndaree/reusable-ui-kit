@@ -8,4 +8,4 @@ This is a simple ui-kit for button which we can use just by adding it in our `pa
 2. run `npm install https://github.com/Vhndaree/reusable-ui-kit#master` or `yarn add https://github.com/Vhndaree/reusable-ui-kit#master` if you use yarn
 3. import package where ever you want to use in you project.
 
-Here is [reusable-ui-kit demo](http://Vhndaree.github.io/reusable-component-demo)
+Here is [reusable-ui-kit demo](http://Vhndaree.github.io/reusable-component-demo)2020
